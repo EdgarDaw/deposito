@@ -38,12 +38,5 @@ public class DepositoCombustibleTest {
 		}
 	}
 
-	@Test
-	public void testConsumir() {
-		depot.consumir(3);
-		assertEquals(2.2, depot.getDepositoNivel(),0);
-		depot.consumir(-3);
-		assertEquals(5.2, depot.getDepositoNivel(),0);
-	}
 	
 }
